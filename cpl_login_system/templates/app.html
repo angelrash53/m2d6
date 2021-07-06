@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="{{url_for('static', filename='css/bootstrap.css')}}">
+        <title>Computer Pride Ltd Scores System</title>
+        <script>
+            type='text/javascript'; src="{{url_for('static', filename='js/App.js')}}"
+        </script>
+    </head>
+    <body>
+
+        <div class="container border w-50 p-4">
+            <div class="mx-auto text-center">
+                <h4>Computer Pride Limited Score System</h4>
+            </div>
+    
+        </div>
+
+        <form>
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <div id="emailHelp" class="form-text">We'll never share your email address with anyone else</div>
+            </div>
+            <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Password</label>
+            <input type="Password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+            </div>
+        
+            <button type="submit" class="btn btn-primary">Submit</button>
+
+            
+        </form>
+    </body>
+</html>
